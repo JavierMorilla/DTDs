@@ -12,8 +12,8 @@
     <destino>Londres Heathrow (LHR)</destino>
   </vuelo>
   <vuelo>
+  <origen>Paris Charles de Gaulle (CDG)</origen>
     <destino>Berlín Schönefeld (SFX)</destino>
-       <origen>Paris Charles de Gaulle (CDG)</origen>
   </vuelo>
 </vuelos>
 
