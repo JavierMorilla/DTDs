@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE paises [
+<!ELEMENT paises (pais*)>
 <!ELEMENT pais (nombre , unionEuropea , otan)>
-<!ELEMENT nombre EMPTY>
+<!ELEMENT nombre (#PCDATA)>
 <!ELEMENT unionEuropea EMPTY>
 <!ELEMENT otan EMPTY>
 ]>
@@ -13,10 +14,12 @@
   </pais>
   <pais>
     <nombre>Noruega</nombre>
+   <unionEuropea/>
     <otan/>
   </pais>
   <pais>
     <nombre>Austria</nombre>
     <unionEuropea/>
+  <otan/>
   </pais>
 </paises>
